@@ -24,6 +24,15 @@ const Layout = () => {
       <main className="flex-grow p-4 overflow-auto">
         <Outlet />
       </main>
+      <footer className="border-t p-4 text-center">
+        <p>Contact us: (123) 456-7890 | info@windowcleaning.com</p>
+        <p>Follow us on social media</p>
+        <div className="flex justify-center space-x-4">
+          <a href="#" className="text-blue-500">Facebook</a>
+          <a href="#" className="text-blue-400">Twitter</a>
+          <a href="#" className="text-pink-500">Instagram</a>
+        </div>
+      </footer>
     </div>
   );
 };
@@ -35,7 +44,7 @@ const DesktopNav = () => (
       className="flex items-center gap-2 text-lg font-semibold md:text-base"
     >
       <Package2 className="h-6 w-6" />
-      <span className="sr-only">Acme Inc</span>
+      <span className="sr-only">Window Cleaning Service</span>
     </NavItem>
     {navItems.map((item) => (
       <NavItem key={item.to} to={item.to}>
@@ -60,7 +69,7 @@ const MobileNav = () => (
           className="flex items-center gap-2 text-lg font-semibold"
         >
           <Package2 className="h-6 w-6" />
-          <span className="sr-only">Acme Inc</span>
+          <span className="sr-only">Window Cleaning Service</span>
         </NavItem>
         {navItems.map((item) => (
           <NavItem key={item.to} to={item.to}>
