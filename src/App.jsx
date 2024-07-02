@@ -3,6 +3,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Home, Star, MessageSquare, Mail } from "lucide-react"; // Corrected icons
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { ThemeProvider } from "next-themes";
 import Layout from "./layouts/navbar"; // Use the navbar layout
 import Index from "./pages/Index.jsx";
 import ServicesPage from "./pages/Services.jsx";
@@ -38,16 +39,18 @@ const App = () => {
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
-        <Router>
-          <Routes>
-            <Route path="/" element={<Layout />}>
-              <Route index element={<Index />} />
-              <Route path="services" element={<ServicesPage />} />
-              <Route path="testimonials" element={<TestimonialsPage />} />
-              <Route path="contact" element={<ContactPage />} />
-            </Route>
-          </Routes>
-        </Router>
+        <ThemeProvider attribute="class">
+          <Router>
+            <Routes>
+              <Route path="/" element={<Layout />}>
+                <Route index element={<Index />} />
+                <Route path="services" element={<ServicesPage />} />
+                <Route path="testimonials" element={<TestimonialsPage />} />
+                <Route path="contact" element={<ContactPage />} />
+              </Route>
+            </Routes>
+          </Router>
+        </ThemeProvider>
       </TooltipProvider>
     </QueryClientProvider>
   );

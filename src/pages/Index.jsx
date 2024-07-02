@@ -1,6 +1,9 @@
 import { Button } from "@/components/ui/button";
+import { useTheme } from "next-themes";
 
 const Index = () => {
+  const { theme, setTheme } = useTheme();
+
   return (
     <div className="text-center space-y-8">
       <section className="space-y-4">
@@ -19,6 +22,12 @@ const Index = () => {
       <section className="space-y-4">
         <h2 className="text-3xl font-semibold">Contact Us</h2>
         <p>Have questions? Reach out to us through our contact form.</p>
+      </section>
+      <section className="space-y-4">
+        <h2 className="text-3xl font-semibold">Theme</h2>
+        <Button variant="secondary" size="lg" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
+          Toggle {theme === 'dark' ? 'Light' : 'Dark'} Mode
+        </Button>
       </section>
     </div>
   );
