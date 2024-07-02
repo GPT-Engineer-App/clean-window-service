@@ -1,7 +1,7 @@
 const Testimonials = () => {
   return (
     <div className="text-center space-y-8">
-      <img src="/images/testimonials.jpg" alt="Testimonials" className="w-full h-auto rounded-lg shadow-md" />
+      <div className="background-icon window-cleaner"></div>
       <h1 className="text-4xl font-bold">Udtalelser</h1>
       <p className="text-lg">Se hvad vores tilfredse kunder siger om vores tjenester.</p>
       <div className="space-y-4">

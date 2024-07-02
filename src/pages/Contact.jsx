@@ -5,7 +5,7 @@ import { Textarea } from "@/components/ui/textarea";
 const Contact = () => {
   return (
     <div className="text-center space-y-8">
-      <img src="/images/contact.jpg" alt="Contact" className="w-full h-auto rounded-lg shadow-md" />
+      <div className="background-icon window-cleaner"></div>
       <h1 className="text-4xl font-bold">Kontakt Os</h1>
       <p className="text-lg">Har du spørgsmål? Kontakt os via vores kontaktformular.</p>
       <form className="space-y-4 max-w-md mx-auto">
