@@ -31,7 +31,7 @@ const Layout = () => {
         <Outlet />
       </main>
       <footer className="border-t p-4 text-center">
-        <p>Kontakt os: (123) 456-7890 | info@faetterglans.com</p>
+        <p>Kontakt os: +45 20851289 | info@faetterglans.com</p>
         <p>Følg os på sociale medier</p>
         <div className="flex justify-center space-x-4">
           <a href="#" className="text-blue-500">Facebook</a>
