@@ -1,7 +1,7 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { Home, Services, Testimonials, Contact } from "lucide-react";
+import { Home, Star, MessageSquare, Mail } from "lucide-react"; // Corrected icons
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Layout from "./layouts/navbar"; // Use the navbar layout
 import Index from "./pages/Index.jsx";
@@ -19,17 +19,17 @@ export const navItems = [
 {
     title: "Services",
     to: "/services",
-    icon: <Services className="h-4 w-4" />,
+    icon: <Star className="h-4 w-4" />, // Changed icon
   },
   {
     title: "Testimonials",
     to: "/testimonials",
-    icon: <Testimonials className="h-4 w-4" />,
+    icon: <MessageSquare className="h-4 w-4" />, // Changed icon
   },
   {
     title: "Contact",
     to: "/contact",
-    icon: <Contact className="h-4 w-4" />,
+    icon: <Mail className="h-4 w-4" />, // Changed icon
   },
 ];
 
