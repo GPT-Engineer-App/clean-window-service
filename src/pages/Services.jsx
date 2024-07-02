@@ -1,14 +1,14 @@
 const Services = () => {
   return (
     <div className="text-center space-y-8">
-      <h1 className="text-4xl font-bold">Our Services</h1>
-      <p className="text-lg">We offer a range of window cleaning services for residential and commercial properties.</p>
+      <h1 className="text-4xl font-bold">Vores Tjenester</h1>
+      <p className="text-lg">Vi tilbyder en række vinduespudsningsydelser til private og erhverv.</p>
       <ul className="list-disc list-inside">
-        <li>Residential Window Cleaning</li>
-        <li>Commercial Window Cleaning</li>
-        <li>High-Rise Window Cleaning</li>
-        <li>Screen Cleaning</li>
-        <li>Gutter Cleaning</li>
+        <li>Privat Vinduespudsning</li>
+        <li>Erhvervs Vinduespudsning</li>
+        <li>Højhus Vinduespudsning</li>
+        <li>Rengøring af Skærme</li>
+        <li>Rengøring af Tagrender</li>
       </ul>
     </div>
   );

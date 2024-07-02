@@ -7,26 +7,26 @@ const Index = () => {
   return (
     <div className="text-center space-y-8">
       <section className="space-y-4">
-        <h1 className="text-4xl font-bold">Welcome to Fætterglans</h1>
-        <p className="text-lg">We make your windows sparkle and shine!</p>
-        <Button variant="primary" size="lg">Get a Free Quote</Button>
+        <h1 className="text-4xl font-bold">Velkommen til Fætterglans</h1>
+        <p className="text-lg">Vi får dine vinduer til at skinne og glitre!</p>
+        <Button variant="primary" size="lg">Få et Gratis Tilbud</Button>
       </section>
       <section className="space-y-4">
-        <h2 className="text-3xl font-semibold">Our Services</h2>
-        <p>We offer a range of window cleaning services for residential and commercial properties.</p>
+        <h2 className="text-3xl font-semibold">Vores Tjenester</h2>
+        <p>Vi tilbyder en række vinduespudsningsydelser til private og erhverv.</p>
       </section>
       <section className="space-y-4">
-        <h2 className="text-3xl font-semibold">Testimonials</h2>
-        <p>See what our satisfied customers have to say about our services.</p>
+        <h2 className="text-3xl font-semibold">Udtalelser</h2>
+        <p>Se hvad vores tilfredse kunder siger om vores tjenester.</p>
       </section>
       <section className="space-y-4">
-        <h2 className="text-3xl font-semibold">Contact Us</h2>
-        <p>Have questions? Reach out to us through our contact form.</p>
+        <h2 className="text-3xl font-semibold">Kontakt Os</h2>
+        <p>Har du spørgsmål? Kontakt os via vores kontaktformular.</p>
       </section>
       <section className="space-y-4">
-        <h2 className="text-3xl font-semibold">Theme</h2>
+        <h2 className="text-3xl font-semibold">Tema</h2>
         <Button variant="secondary" size="lg" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
-          Toggle {theme === 'dark' ? 'Light' : 'Dark'} Mode
+          Skift til {theme === 'dark' ? 'Lys' : 'Mørk'} Tilstand
         </Button>
       </section>
     </div>

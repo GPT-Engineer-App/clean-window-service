@@ -1,15 +1,15 @@
 const Testimonials = () => {
   return (
     <div className="text-center space-y-8">
-      <h1 className="text-4xl font-bold">Testimonials</h1>
-      <p className="text-lg">See what our satisfied customers have to say about our services.</p>
+      <h1 className="text-4xl font-bold">Udtalelser</h1>
+      <p className="text-lg">Se hvad vores tilfredse kunder siger om vores tjenester.</p>
       <div className="space-y-4">
         <blockquote className="border-l-4 border-blue-500 pl-4">
-          <p>"The best window cleaning service I've ever used. Highly recommend!"</p>
+          <p>"Den bedste vinduespudsningsservice, jeg nogensinde har brugt. Kan varmt anbefales!"</p>
           <cite>- John Doe</cite>
         </blockquote>
         <blockquote className="border-l-4 border-blue-500 pl-4">
-          <p>"Professional, efficient, and affordable. My windows have never looked better!"</p>
+          <p>"Professionel, effektiv og overkommelig. Mine vinduer har aldrig set bedre ud!"</p>
           <cite>- Jane Smith</cite>
         </blockquote>
       </div>

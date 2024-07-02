@@ -31,8 +31,8 @@ const Layout = () => {
         <Outlet />
       </main>
       <footer className="border-t p-4 text-center">
-        <p>Contact us: (123) 456-7890 | info@faetterglans.com</p>
-        <p>Follow us on social media</p>
+        <p>Kontakt os: (123) 456-7890 | info@faetterglans.com</p>
+        <p>Følg os på sociale medier</p>
         <div className="flex justify-center space-x-4">
           <a href="#" className="text-blue-500">Facebook</a>
           <a href="#" className="text-blue-400">Twitter</a>
@@ -65,7 +65,7 @@ const MobileNav = () => (
     <SheetTrigger asChild>
       <Button variant="outline" size="icon" className="shrink-0 md:hidden">
         <Menu className="h-5 w-5" />
-        <span className="sr-only">Toggle navigation menu</span>
+        <span className="sr-only">Skift navigationsmenu</span>
       </Button>
     </SheetTrigger>
     <SheetContent side="left">
@@ -92,16 +92,16 @@ const UserMenu = () => (
     <DropdownMenuTrigger asChild>
       <Button variant="secondary" size="icon" className="rounded-full">
         <CircleUser className="h-5 w-5" />
-        <span className="sr-only">Toggle user menu</span>
+        <span className="sr-only">Skift brugermenu</span>
       </Button>
     </DropdownMenuTrigger>
     <DropdownMenuContent align="end">
-      <DropdownMenuLabel>My Account</DropdownMenuLabel>
+      <DropdownMenuLabel>Min Konto</DropdownMenuLabel>
       <DropdownMenuSeparator />
-      <DropdownMenuItem>Settings</DropdownMenuItem>
+      <DropdownMenuItem>Indstillinger</DropdownMenuItem>
       <DropdownMenuItem>Support</DropdownMenuItem>
       <DropdownMenuSeparator />
-      <DropdownMenuItem>Logout</DropdownMenuItem>
+      <DropdownMenuItem>Log ud</DropdownMenuItem>
     </DropdownMenuContent>
   </DropdownMenu>
 );
