@@ -25,7 +25,7 @@ const Layout = () => {
         <Outlet />
       </main>
       <footer className="border-t p-4 text-center">
-        <p>Contact us: (123) 456-7890 | info@windowcleaning.com</p>
+        <p>Contact us: (123) 456-7890 | info@faetterglans.com</p>
         <p>Follow us on social media</p>
         <div className="flex justify-center space-x-4">
           <a href="#" className="text-blue-500">Facebook</a>
@@ -44,7 +44,7 @@ const DesktopNav = () => (
       className="flex items-center gap-2 text-lg font-semibold md:text-base"
     >
       <Package2 className="h-6 w-6" />
-      <span className="sr-only">Window Cleaning Service</span>
+      <span className="sr-only">Fætterglans</span>
     </NavItem>
     {navItems.map((item) => (
       <NavItem key={item.to} to={item.to}>
@@ -69,7 +69,7 @@ const MobileNav = () => (
           className="flex items-center gap-2 text-lg font-semibold"
         >
           <Package2 className="h-6 w-6" />
-          <span className="sr-only">Window Cleaning Service</span>
+          <span className="sr-only">Fætterglans</span>
         </NavItem>
         {navItems.map((item) => (
           <NavItem key={item.to} to={item.to}>

@@ -4,7 +4,7 @@ const Index = () => {
   return (
     <div className="text-center space-y-8">
       <section className="space-y-4">
-        <h1 className="text-4xl font-bold">Welcome to Our Window Cleaning Service</h1>
+        <h1 className="text-4xl font-bold">Welcome to Fætterglans</h1>
         <p className="text-lg">We make your windows sparkle and shine!</p>
         <Button variant="primary" size="lg">Get a Free Quote</Button>
       </section>
